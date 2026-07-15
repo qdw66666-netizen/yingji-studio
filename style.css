@@ -1,0 +1,56 @@
+
+body{
+margin:0;
+background:#111;
+color:#fff;
+font-family:-apple-system,BlinkMacSystemFont,"PingFang SC";
+padding-bottom:70px;
+}
+header{padding:25px; text-align:center}
+header span{color:#c8a66a; font-size:1.2em}
+.card{
+background:#1c1c1e;
+margin:15px;
+padding:20px;
+border-radius:20px;
+}
+.grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:12px;
+}
+.grid div{
+background:#222;
+padding:18px;
+border-radius:15px;
+text-align:center;
+}
+input,button{
+width:100%;
+padding:13px;
+margin:8px 0;
+border-radius:10px;
+border:0;
+box-sizing:border-box;
+}
+input{background:#222;color:white}
+button{
+background:#c8a66a;
+font-weight:bold;
+cursor:pointer;
+}
+.item{
+padding:14px 0;
+border-bottom:1px solid #333;
+}
+nav{
+position:fixed;
+bottom:0;
+left:0;
+right:0;
+background:#181818;
+padding:16px;
+text-align:center;
+color:#c8a66a;
+font-size:15px;
+}
