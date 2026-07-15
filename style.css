@@ -1,0 +1,11 @@
+body{margin:0;background:#111;color:#fff;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC';padding-bottom:70px}
+header{padding:25px;text-align:center}
+header span{color:#c8a66a}
+.card{background:#1d1d1f;margin:15px;padding:18px;border-radius:20px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.grid div{background:#252525;padding:18px;border-radius:15px;text-align:center}
+input,select,button{width:100%;padding:13px;margin-top:8px;border-radius:10px;box-sizing:border-box}
+input,select{background:#222;color:#fff}
+button{background:#c8a66a;border:0;font-weight:bold;cursor:pointer}
+.item{padding:12px 0;border-bottom:1px solid #333}
+nav{position:fixed;bottom:0;left:0;right:0;background:#181818;padding:16px;text-align:center;color:#c8a66a;font-size:15px}
