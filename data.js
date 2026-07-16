@@ -1,0 +1,1 @@
+let naonaoData={projects:[],clients:[],finance:{income:0,pending:0}};
